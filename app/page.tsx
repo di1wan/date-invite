@@ -142,7 +142,7 @@ export default function Home() {
       </div>
 
       <section className="invite-card" aria-live="polite">
-        <div className="top-pill">только тёплые ответы</div>
+        <div className="top-pill"></div>
 
         {stage === 'ask' && (
           <div className="screen screen-ask">
@@ -262,10 +262,7 @@ export default function Home() {
                   <span>Выбор еды</span>
                   <strong>{selectedFood ? `${selectedFood.emoji} ${selectedFood.label}` : 'сюрприз'}</strong>
                 </div>
-                <p className="success-note">Telegram-уведомление отправлено тебе ✅</p>
-                <button className="secondary-button wide-button" type="button" onClick={restart}>
-                  Пройти ещё раз
-                </button>
+                <p className="success-note"></p>
               </>
             )}
 
